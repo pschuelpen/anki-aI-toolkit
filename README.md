@@ -8,10 +8,12 @@ The Anki Toolkit is meant for automatic card generation from PDF Files. Imagine 
 
 Some Tools like this already exist YES but most of them are expensive. This Toolkit only needs you to use the OpenAI API (purchase of API credits required) or install a local model like Ollama to use local LLM's. Its open source therefore you can definetly customize functionality, optimize promts and keep your files by yourself
 
->Warning! Text data will be transmitted to OpenAI if ChatGPT API is being used !! This might be relevant to you if privacy is your concern. For private use please use Ollama locally
+> [!WARNING] 
+> Text data will be transmitted to OpenAI if ChatGPT API is being used !! This might be relevant to you if privacy is your concern. For private use please use Ollama locally
 
 ## 🤖 OpenAI API - important Information !!
 
+> [!IMPORTANT]
 > If you plan on using ChatGPT to create your Anki Cards please read this abstract!
 
 ### 💸 Costs
@@ -83,7 +85,8 @@ To run the Scripts go to the `src` Folder and run the python script:
 python3 main.py
 ```
 
-> Warning :: You have to change Paths in the `main.py` Script to manually use the Script. Program is build to run in Docker therefore they are hardcoded to fit the Containers Volumes
+> [!WARNING] 
+> You have to change Paths in the `main.py` Script to manually use the Script. Program is build to run in Docker therefore they are hardcoded to fit the Containers Volumes
 
 
 ## ☝️ Additional
