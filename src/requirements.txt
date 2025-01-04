@@ -1,0 +1,9 @@
+PyPDF2
+pytesseract
+pdf2image
+requests
+pillow
+pandas
+PyYAML
+openai
+genanki
